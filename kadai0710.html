@@ -1,0 +1,53 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title>課題</title>
+</head>
+<body>
+<form action="" method="post">
+<table>
+<tr><th>項目名</th><th>入力項目</th></tr>
+
+<tr>
+	<td>名前</td><td><input type="text" name="fullname"></td>
+</tr>
+<tr>
+	<td>パスワード</td><td><input type="password" name="password"></td>
+</tr>
+<tr>
+	<td>メッセージ</td><td><textarea cols="30" rows="5" name="message"></textarea></td>
+</tr>
+<tr>
+	<td>性別</td><td><input type="radio" value="m" name="sex">男性
+	<input type="radio" value="f" name="name">女性</td>
+</tr>
+<tr>
+	<td>趣味</td>
+	<td>スポーツ<input type="cheakbox" name="hobby" value="1">
+	読書<input type="cheakbox" name="hobby" value="2">
+	なし<input type="cheakbox" name="hobby" value="3"></td>
+</tr>
+<tr>
+	<td>職業</td>
+	<td><select name="jog"><option value="pg">PG</option><option value="se">SE</option><option value="pm">PM</option></select></td>
+</tr>
+<tr>
+<td>好きな果物</td>
+<td>
+<select name="fruits" multiple>
+<option value="apple">リンゴ</option>
+<option value="banana">バナナ</option>
+<option value="ichigo">いちご</option>
+<option value="meron">メロン</option>
+<option value="orange">オレンジ</option>
+</select>
+</td>
+</tr>
+<tr><td>ファイル選択</td><td><input type="file" name="attach_file"></td></tr>
+<tr><td>隠しデータ</td><td><input type="hidden" name="user_id" value="encorage"></td></tr>
+<tr><td>ボタン</td><td><input type="submit" value="送信する"><input type="reset" value="リセット"></td></tr>
+</table>
+</form>
+</body>
+</html>
+
